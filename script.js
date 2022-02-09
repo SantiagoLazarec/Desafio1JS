@@ -20,26 +20,26 @@ const division1 = (num1, num2, num3) => num1 / num2 + num3
 const division2 = (num1, num2, num3) => num1 / num2 - num3 
 const division3 = (num1, num2, num3) => num1 / num2 * num3 
 
-console.log(suma(10,5,7))
-console.log(suma1(10,5,7)) 
-console.log(suma2(10,5,7))
-console.log(suma3(10,5,7)) 
+console.log(suma(10,5,6))
+console.log(suma1(10,5,6)) 
+console.log(suma2(10,5,6))
+console.log(suma3(10,5,6)) 
 
-console.log(resta(10,5,7))
-console.log(resta1(10,5,7))
-console.log(resta2(10,5,7))
-console.log(resta3(10,5,7)) 
+console.log(resta(10,5,6))
+console.log(resta1(10,5,6))
+console.log(resta2(10,5,6))
+console.log(resta3(10,5,6)) 
 
 
-console.log(multiplicacion(10,5,7)) 
-console.log(multiplicacion1(10,5,7))
-console.log(multiplicacion2(10,5,7))
-console.log(multiplicacion3(10,5,7)) 
+console.log(multiplicacion(10,5,6)) 
+console.log(multiplicacion1(10,5,6))
+console.log(multiplicacion2(10,5,6))
+console.log(multiplicacion3(10,5,6)) 
 
-console.log(division(10,5,7))
-console.log(division1(10,5,7))
-console.log(division2(10,5,7))
-console.log(division3(10,5,7))
+console.log(division(10,5,6))
+console.log(division1(10,5,6))
+console.log(division2(10,5,6))
+console.log(division3(10,5,6))
 
 
 
