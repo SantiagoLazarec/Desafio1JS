@@ -1,45 +1,25 @@
-let val = NaN
+class Persona {
+    constructor(nombre, apellido, edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad
+    }
+}
+const persona1 = new Persona ("Fernando", "Larrosa", 25)
+const persona2 = new Persona ("Tomas", "Lopez", 18)
+const persona3 = new Persona ("Ricardo", "Rodruigez", 22)
+const persona4 = new Persona ("Benjamin", "Gutierrez", 46)
+const persona5 = new Persona ("Sebastian", "Tevez", 35)
 
-const suma = (num1, num2, num3) => num1 + num2 + num3 
-const suma1 = (num1, num2, num3) => num1 + num2 - num3 
-const suma2 = (num1, num2, num3) => num1 + num2 * num3 
-const suma3 = (num1, num2, num3) => num1 + num2 / num3 
+let arrayPersonas = [persona1, persona2, persona3, persona4, persona5]
 
-const resta = (num1, num2, num3) => num1 - num2 - num3 
-const resta1 = (num1, num2, num3) => num1 - num2 + num3
-const resta2 = (num1, num2, num3) => num1 - num2 * num3
-const resta3 = (num1, num2, num3) => num1 - num2 / num3
+for(let i= 0; i < arrayPersonas.length; i++) {
+    console.log(i)
+    console.log(arrayPersonas[i])
+}
+for(let personaEnArray of arrayPersonas) {
+    console.log(personaEnArray)
+}
+console.log(personaEnArray)
 
-const multiplicacion = (num1, num2, num3) => num1 * num2 * num3
-const multiplicacion1 = (num1, num2, num3) => num1 * num2 + num3
-const multiplicacion2 = (num1, num2, num3) => num1 * num2 - num3
-const multiplicacion3 = (num1, num2, num3) => num1 * num2 / num3
-
-const division = (num1, num2, num3) => num1 / num2 / num3 
-const division1 = (num1, num2, num3) => num1 / num2 + num3 
-const division2 = (num1, num2, num3) => num1 / num2 - num3 
-const division3 = (num1, num2, num3) => num1 / num2 * num3 
-
-console.log(suma(10,5,6))
-console.log(suma1(10,5,6)) 
-console.log(suma2(10,5,6))
-console.log(suma3(10,5,6)) 
-
-console.log(resta(10,5,6))
-console.log(resta1(10,5,6))
-console.log(resta2(10,5,6))
-console.log(resta3(10,5,6)) 
-
-
-console.log(multiplicacion(10,5,6)) 
-console.log(multiplicacion1(10,5,6))
-console.log(multiplicacion2(10,5,6))
-console.log(multiplicacion3(10,5,6)) 
-
-console.log(division(10,5,6))
-console.log(division1(10,5,6))
-console.log(division2(10,5,6))
-console.log(division3(10,5,6))
-
-
-
+console.log(personaEnArray)
